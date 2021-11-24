@@ -1,6 +1,9 @@
 public class Hain {
   public static void main(String[] args) {
-    String horseCock = "Hello World"
-    System.out.println(horseCock);
+    String greeting = "Hello World";
+    boolean amicable = true;
+    if (amicable) {
+      System.out.println(greeting);
+    }
   }
 }
