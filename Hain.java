@@ -14,5 +14,6 @@ public class Hain {
     } else {
     }
     System.out.println("... anyhow I built something");
+    universe1 = new Universe(17, 3, 69);
   }
 }
