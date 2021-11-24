@@ -1,12 +1,12 @@
 public class Hain {
+  private static final String GREETING = "Hello World";
+  private static final String MEANNESS = "Go Away World";
   public static void main(String[] args) {
-    String greeting = "Hello World";
-    String meanness = "Go Away World";
     boolean amicable = true;
     if (amicable) {
-      System.out.println(greeting);
+      System.out.println(GREETING);
     } else {
-      System.out.println(meanness);
+      System.out.println(MEANNESS);
     }
   }
 }
